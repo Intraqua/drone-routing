@@ -3,7 +3,7 @@ REPORTE DE EXPERIMENTACIÓN
 Planificación Multiobjetivo de Rutas de Drones
 ======================================================================
 
-Fecha: 2025-12-14T16:43:55.315037
+Fecha: 2025-12-14T17:02:52.205504
 Réplicas por experimento: 5
 Límite de tiempo: 60.0 s
 
@@ -15,24 +15,24 @@ Zonas no-fly: 3
 
 
   BRANCH_BOUND:
-    Tiempo: 0.4615 s (± 0.0087)
+    Tiempo: 0.4597 s (± 0.0079)
     Memoria pico: 3.16 MB
     Soluciones Pareto: 1
     Hipervolumen: 36972.66
     Diversidad: 0.00
 
   GEOMETRIC:
-    Tiempo: 0.0048 s (± 0.0002)
+    Tiempo: 0.0050 s (± 0.0004)
     Memoria pico: 0.03 MB
     Soluciones Pareto: 5
     Hipervolumen: 35650.75
     Diversidad: 46.70
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.2650 s (± 0.0055)
+    Tiempo: 0.2637 s (± 0.0044)
     Memoria pico: 0.01 MB
     Soluciones Pareto: 1
-    Hipervolumen: 36765.00
+    Hipervolumen: 35403.34
     Diversidad: 0.00
 
 ----------------------------------------------------------------------
@@ -46,18 +46,18 @@ Zonas no-fly: 4
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0163 s (± 0.0007)
+    Tiempo: 0.0161 s (± 0.0002)
     Memoria pico: 0.05 MB
     Soluciones Pareto: 0
     Hipervolumen: 0.00
     Diversidad: 0.00
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.3510 s (± 0.0167)
+    Tiempo: 0.3403 s (± 0.0044)
     Memoria pico: 0.01 MB
     Soluciones Pareto: 4
     Hipervolumen: 22177.55
-    Diversidad: 87.86
+    Diversidad: 67.79
 
 ----------------------------------------------------------------------
 INSTANCIA: instance_n20
@@ -70,18 +70,18 @@ Zonas no-fly: 4
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0227 s (± 0.0005)
+    Tiempo: 0.0223 s (± 0.0023)
     Memoria pico: 0.07 MB
     Soluciones Pareto: 2
     Hipervolumen: 27606.16
     Diversidad: 325.46
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.3962 s (± 0.0296)
+    Tiempo: 0.3628 s (± 0.0029)
     Memoria pico: 0.01 MB
-    Soluciones Pareto: 4
-    Hipervolumen: 27129.39
-    Diversidad: 56.90
+    Soluciones Pareto: 5
+    Hipervolumen: 23823.54
+    Diversidad: 186.47
 
 ----------------------------------------------------------------------
 INSTANCIA: instance_n25
@@ -94,18 +94,18 @@ Zonas no-fly: 5
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0417 s (± 0.0047)
+    Tiempo: 0.0366 s (± 0.0007)
     Memoria pico: 0.11 MB
     Soluciones Pareto: 0
     Hipervolumen: 0.00
     Diversidad: 0.00
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.4327 s (± 0.0117)
+    Tiempo: 0.4578 s (± 0.0443)
     Memoria pico: 0.01 MB
-    Soluciones Pareto: 1
-    Hipervolumen: 21595.33
-    Diversidad: 0.00
+    Soluciones Pareto: 2
+    Hipervolumen: 19599.33
+    Diversidad: 78.16
 
 ======================================================================
 FIN DEL REPORTE

@@ -15,7 +15,6 @@ Este proyecto implementa tres algoritmos para resolver el problema de planificac
 El problema considera restricciones de zonas de vuelo prohibidas (no-fly zones) representadas como polígonos que el dron no puede atravesar.
 
 ## Estructura del Proyecto
-
 ```
 drone-routing/
 ├── main.py                 # Script principal de ejecución
@@ -64,7 +63,7 @@ drone-routing/
 ### Windows (PowerShell)
 ```powershell
 # Clonar el repositorio
-git clone https://github.com/dvalbuena-unir/drone-routing.git
+git clone https://github.com/Intraqua/drone-routing
 cd drone-routing
 
 # Instalar dependencias
@@ -90,15 +89,28 @@ pip install -r requirements.txt
 
 ## Uso
 
-### Ejecución Rápida (Recomendado)
-
+### Ejecución Principal (make run)
 ```bash
-# Ejecutar todo: generar instancias + benchmark completo
+# Con Make instalado (Linux/Mac/Windows con Chocolatey)
 make run
 ```
 
-### Comandos Individuales
+Este comando genera las instancias, ejecuta los 3 algoritmos y produce todos los resultados.
 
+### Windows sin Make
+
+Si no tienes Make instalado, puedes usar el script batch o ejecutar Python directamente:
+```powershell
+# Opción 1: Usar script batch
+.\run.bat run
+
+# Opción 2: Ejecutar Python directamente
+pip install -r requirements.txt
+python main.py generate
+python main.py benchmark --replicas 5 --time-limit 60
+```
+
+### Comandos Individuales
 ```bash
 # Generar instancias de prueba
 python main.py generate
@@ -118,15 +130,14 @@ python main.py benchmark --replicas 5 --time-limit 60
 python main.py visualize instance_n10 --output instancia.png
 ```
 
-### Usando Make
-
+### Comandos Make disponibles
 ```bash
 make install      # Instalar dependencias
 make generate     # Generar instancias
 make run          # Ejecutar benchmark completo
 make test         # Ejecutar pruebas unitarias
 make clean        # Limpiar archivos generados
-make help         # Ver ayuda
+make help         # Mostrar ayuda
 ```
 
 ## Algoritmos Implementados
@@ -162,7 +173,6 @@ Metaheurística del Tema 8 para optimización multiobjetivo.
 ## Formato de Instancias
 
 Las instancias se almacenan en formato JSON:
-
 ```json
 {
   "name": "instance_n10",
@@ -208,4 +218,4 @@ Los resultados se generan en el directorio `results/`:
 
 ## Licencia
 
-Este proyecto es parte de una actividad académica para la asignatura de Diseño Avanzado de Algoritmos de la UNIPRO.
+Este proyecto es parte de una actividad académica para la asignatura de Diseño Avanzado de Algoritmos de la UNIR.

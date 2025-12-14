@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-14T16:43:55.315037",
+  "timestamp": "2025-12-14T17:02:52.205504",
   "num_replicas": 5,
   "time_limit": 60.0,
   "instances": {
@@ -8,8 +8,8 @@
       "n_no_fly_zones": 3,
       "algorithms": {
         "branch_bound": {
-          "time_mean": 0.4615045799931977,
-          "time_std": 0.008704032698703469,
+          "time_mean": 0.45966657999088056,
+          "time_std": 0.007850609478909835,
           "memory_peak": 3.1592330932617188,
           "num_solutions": 1,
           "hypervolume": 36972.66058159842,
@@ -18,8 +18,8 @@
           "nodes_pruned": 3723
         },
         "geometric": {
-          "time_mean": 0.004828479996649549,
-          "time_std": 0.00021317813879211982,
+          "time_mean": 0.005018400005064904,
+          "time_std": 0.00036709464596566165,
           "memory_peak": 0.032684326171875,
           "num_solutions": 5,
           "hypervolume": 35650.74837358096,
@@ -27,14 +27,14 @@
           "visibility_edges": 102
         },
         "simulated_annealing": {
-          "time_mean": 0.2649526000081096,
-          "time_std": 0.005543456299108762,
-          "memory_peak": 0.00798797607421875,
+          "time_mean": 0.2636684800032526,
+          "time_std": 0.004383939539684858,
+          "memory_peak": 0.00794219970703125,
           "num_solutions": 1,
-          "hypervolume": 36765.00033867288,
+          "hypervolume": 35403.335258862215,
           "diversity": 0.0,
-          "acceptance_rate": 0.9965999999999999,
-          "improvements": 2
+          "acceptance_rate": 0.9944,
+          "improvements": 3
         }
       }
     },
@@ -47,8 +47,8 @@
           "reason": "Instance too large (N > 12)"
         },
         "geometric": {
-          "time_mean": 0.01629279999760911,
-          "time_std": 0.0006727097816407757,
+          "time_mean": 0.016108319995692,
+          "time_std": 0.00019739268645071892,
           "memory_peak": 0.052154541015625,
           "num_solutions": 0,
           "hypervolume": 0,
@@ -56,13 +56,13 @@
           "visibility_edges": 204
         },
         "simulated_annealing": {
-          "time_mean": 0.3509770800010301,
-          "time_std": 0.01672466404274986,
-          "memory_peak": 0.009674072265625,
+          "time_mean": 0.34033371999394146,
+          "time_std": 0.004372428779795069,
+          "memory_peak": 0.0091705322265625,
           "num_solutions": 4,
-          "hypervolume": 22177.550918459336,
-          "diversity": 87.85987253957079,
-          "acceptance_rate": 0.996,
+          "hypervolume": 22177.55091845934,
+          "diversity": 67.79293514978501,
+          "acceptance_rate": 0.9967999999999999,
           "improvements": 0
         }
       }
@@ -76,8 +76,8 @@
           "reason": "Instance too large (N > 12)"
         },
         "geometric": {
-          "time_mean": 0.022654860001057386,
-          "time_std": 0.0005404915091972505,
+          "time_mean": 0.022312199999578296,
+          "time_std": 0.0023285576622394627,
           "memory_peak": 0.072998046875,
           "num_solutions": 2,
           "hypervolume": 27606.164866298717,
@@ -85,13 +85,13 @@
           "visibility_edges": 296
         },
         "simulated_annealing": {
-          "time_mean": 0.39617827999754807,
-          "time_std": 0.02960283243300026,
-          "memory_peak": 0.0102081298828125,
-          "num_solutions": 4,
-          "hypervolume": 27129.390666212115,
-          "diversity": 56.897824700715915,
-          "acceptance_rate": 0.9957,
+          "time_mean": 0.3628202599997167,
+          "time_std": 0.0028741685166707403,
+          "memory_peak": 0.0105438232421875,
+          "num_solutions": 5,
+          "hypervolume": 23823.54315125132,
+          "diversity": 186.4720641899715,
+          "acceptance_rate": 0.9947,
           "improvements": 0
         }
       }
@@ -105,8 +105,8 @@
           "reason": "Instance too large (N > 12)"
         },
         "geometric": {
-          "time_mean": 0.04166024001315236,
-          "time_std": 0.004706008120366917,
+          "time_mean": 0.036639479995938015,
+          "time_std": 0.0007021271249059085,
           "memory_peak": 0.11103057861328125,
           "num_solutions": 0,
           "hypervolume": 0,
@@ -114,13 +114,13 @@
           "visibility_edges": 446
         },
         "simulated_annealing": {
-          "time_mean": 0.43266183999949137,
-          "time_std": 0.01169239601200544,
-          "memory_peak": 0.01076507568359375,
-          "num_solutions": 1,
-          "hypervolume": 21595.32856841269,
-          "diversity": 0.0,
-          "acceptance_rate": 0.9927,
+          "time_mean": 0.457828839996364,
+          "time_std": 0.04432252473287196,
+          "memory_peak": 0.01084136962890625,
+          "num_solutions": 2,
+          "hypervolume": 19599.334203761126,
+          "diversity": 78.1579305190016,
+          "acceptance_rate": 0.9948,
           "improvements": 0
         }
       }

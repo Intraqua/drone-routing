@@ -1,0 +1,230 @@
+{
+  "name": "instance_n20",
+  "description": "Instancia con 20 destinos y 4 zonas no-fly",
+  "map_size": 100.0,
+  "hub": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "destinations": [
+    {
+      "id": 1,
+      "x": 31.6,
+      "y": 35.23,
+      "is_charging": false
+    },
+    {
+      "id": 2,
+      "x": 85.45,
+      "y": 75.75,
+      "is_charging": false
+    },
+    {
+      "id": 3,
+      "x": 17.67,
+      "y": 48.09,
+      "is_charging": true
+    },
+    {
+      "id": 4,
+      "x": 25.25,
+      "y": 20.4,
+      "is_charging": true
+    },
+    {
+      "id": 5,
+      "x": 69.77,
+      "y": 72.12,
+      "is_charging": false
+    },
+    {
+      "id": 6,
+      "x": 13.48,
+      "y": 86.85,
+      "is_charging": false
+    },
+    {
+      "id": 7,
+      "x": 64.39,
+      "y": 66.79,
+      "is_charging": false
+    },
+    {
+      "id": 8,
+      "x": 77.56,
+      "y": 74.92,
+      "is_charging": false
+    },
+    {
+      "id": 9,
+      "x": 39.56,
+      "y": 47.67,
+      "is_charging": false
+    },
+    {
+      "id": 10,
+      "x": 46.29,
+      "y": 74.16,
+      "is_charging": false
+    },
+    {
+      "id": 11,
+      "x": 89.48,
+      "y": 68.93,
+      "is_charging": false
+    },
+    {
+      "id": 12,
+      "x": 89.6,
+      "y": 59.3,
+      "is_charging": false
+    },
+    {
+      "id": 13,
+      "x": 32.24,
+      "y": 10.74,
+      "is_charging": false
+    },
+    {
+      "id": 14,
+      "x": 80.65,
+      "y": 56.4,
+      "is_charging": false
+    },
+    {
+      "id": 15,
+      "x": 58.31,
+      "y": 54.48,
+      "is_charging": false
+    },
+    {
+      "id": 16,
+      "x": 32.54,
+      "y": 85.55,
+      "is_charging": false
+    },
+    {
+      "id": 17,
+      "x": 55.08,
+      "y": 42.36,
+      "is_charging": true
+    },
+    {
+      "id": 18,
+      "x": 38.88,
+      "y": 18.99,
+      "is_charging": false
+    },
+    {
+      "id": 19,
+      "x": 27.9,
+      "y": 67.34,
+      "is_charging": false
+    },
+    {
+      "id": 20,
+      "x": 64.07,
+      "y": 47.92,
+      "is_charging": true
+    }
+  ],
+  "no_fly_zones": [
+    {
+      "vertices": [
+        [
+          85.54,
+          24.13
+        ],
+        [
+          75.67,
+          29.83
+        ],
+        [
+          75.67,
+          18.44
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          33.68,
+          55.5
+        ],
+        [
+          29.74,
+          60.92
+        ],
+        [
+          23.36,
+          58.85
+        ],
+        [
+          23.36,
+          52.14
+        ],
+        [
+          29.74,
+          50.07
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          73.32,
+          40.27
+        ],
+        [
+          67.9,
+          47.73
+        ],
+        [
+          59.14,
+          44.88
+        ],
+        [
+          59.14,
+          35.67
+        ],
+        [
+          67.9,
+          32.82
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          45.64,
+          37.11
+        ],
+        [
+          38.66,
+          44.08
+        ],
+        [
+          31.68,
+          37.11
+        ],
+        [
+          38.66,
+          30.13
+        ]
+      ]
+    }
+  ],
+  "charging_stations": [
+    3,
+    4,
+    17,
+    20
+  ],
+  "metadata": {
+    "n_destinations": 20,
+    "n_no_fly_zones": 4,
+    "n_charging_stations": 4,
+    "seed": 44
+  }
+}

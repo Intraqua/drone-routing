@@ -1,0 +1,17 @@
+# Drone Routing Optimization - Dependencies
+# Actividad 2: Planificación multiobjetivo de rutas de drones
+
+# Core scientific computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+pandas>=1.4.0
+
+# Performance measurement
+memory-profiler>=0.60.0
+psutil>=5.9.0
+
+# Output formats
+openpyxl>=3.0.0
+
+# Progress bars (optional but useful)
+tqdm>=4.64.0

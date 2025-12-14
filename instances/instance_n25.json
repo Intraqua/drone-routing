@@ -1,0 +1,277 @@
+{
+  "name": "instance_n25",
+  "description": "Instancia con 25 destinos y 5 zonas no-fly",
+  "map_size": 100.0,
+  "hub": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "destinations": [
+    {
+      "id": 1,
+      "x": 70.09,
+      "y": 35.36,
+      "is_charging": false
+    },
+    {
+      "id": 2,
+      "x": 40.94,
+      "y": 80.11,
+      "is_charging": false
+    },
+    {
+      "id": 3,
+      "x": 69.66,
+      "y": 62.86,
+      "is_charging": false
+    },
+    {
+      "id": 4,
+      "x": 79.41,
+      "y": 68.56,
+      "is_charging": false
+    },
+    {
+      "id": 5,
+      "x": 74.82,
+      "y": 61.46,
+      "is_charging": false
+    },
+    {
+      "id": 6,
+      "x": 57.45,
+      "y": 14.79,
+      "is_charging": false
+    },
+    {
+      "id": 7,
+      "x": 38.11,
+      "y": 60.11,
+      "is_charging": false
+    },
+    {
+      "id": 8,
+      "x": 59.87,
+      "y": 33.5,
+      "is_charging": false
+    },
+    {
+      "id": 9,
+      "x": 21.47,
+      "y": 46.44,
+      "is_charging": true
+    },
+    {
+      "id": 10,
+      "x": 16.91,
+      "y": 40.75,
+      "is_charging": false
+    },
+    {
+      "id": 11,
+      "x": 80.6,
+      "y": 59.0,
+      "is_charging": true
+    },
+    {
+      "id": 12,
+      "x": 12.32,
+      "y": 78.69,
+      "is_charging": true
+    },
+    {
+      "id": 13,
+      "x": 62.66,
+      "y": 51.64,
+      "is_charging": false
+    },
+    {
+      "id": 14,
+      "x": 33.08,
+      "y": 34.07,
+      "is_charging": false
+    },
+    {
+      "id": 15,
+      "x": 24.63,
+      "y": 59.77,
+      "is_charging": false
+    },
+    {
+      "id": 16,
+      "x": 13.98,
+      "y": 85.59,
+      "is_charging": false
+    },
+    {
+      "id": 17,
+      "x": 18.22,
+      "y": 59.93,
+      "is_charging": false
+    },
+    {
+      "id": 18,
+      "x": 56.07,
+      "y": 38.98,
+      "is_charging": false
+    },
+    {
+      "id": 19,
+      "x": 36.35,
+      "y": 87.73,
+      "is_charging": false
+    },
+    {
+      "id": 20,
+      "x": 72.81,
+      "y": 81.54,
+      "is_charging": false
+    },
+    {
+      "id": 21,
+      "x": 15.17,
+      "y": 20.58,
+      "is_charging": false
+    },
+    {
+      "id": 22,
+      "x": 16.62,
+      "y": 65.66,
+      "is_charging": false
+    },
+    {
+      "id": 23,
+      "x": 70.37,
+      "y": 45.74,
+      "is_charging": false
+    },
+    {
+      "id": 24,
+      "x": 77.92,
+      "y": 41.11,
+      "is_charging": true
+    },
+    {
+      "id": 25,
+      "x": 42.18,
+      "y": 40.17,
+      "is_charging": true
+    }
+  ],
+  "no_fly_zones": [
+    {
+      "vertices": [
+        [
+          37.32,
+          49.04
+        ],
+        [
+          33.47,
+          54.34
+        ],
+        [
+          27.24,
+          52.32
+        ],
+        [
+          27.24,
+          45.77
+        ],
+        [
+          33.47,
+          43.74
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          17.53,
+          48.74
+        ],
+        [
+          8.83,
+          53.77
+        ],
+        [
+          8.83,
+          43.71
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          96.05,
+          78.43
+        ],
+        [
+          81.73,
+          86.7
+        ],
+        [
+          81.73,
+          70.17
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          30.96,
+          73.61
+        ],
+        [
+          20.8,
+          83.76
+        ],
+        [
+          10.64,
+          73.61
+        ],
+        [
+          20.8,
+          63.45
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          26.65,
+          14.58
+        ],
+        [
+          23.04,
+          19.54
+        ],
+        [
+          17.2,
+          17.65
+        ],
+        [
+          17.2,
+          11.5
+        ],
+        [
+          23.04,
+          9.61
+        ]
+      ]
+    }
+  ],
+  "charging_stations": [
+    9,
+    11,
+    12,
+    24,
+    25
+  ],
+  "metadata": {
+    "n_destinations": 25,
+    "n_no_fly_zones": 5,
+    "n_charging_stations": 5,
+    "seed": 45
+  }
+}

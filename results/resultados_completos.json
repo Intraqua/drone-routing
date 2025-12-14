@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-12-14T16:43:55.315037",
+  "num_replicas": 5,
+  "time_limit": 60.0,
+  "instances": {
+    "instance_n10": {
+      "n_destinations": 10,
+      "n_no_fly_zones": 3,
+      "algorithms": {
+        "branch_bound": {
+          "time_mean": 0.4615045799931977,
+          "time_std": 0.008704032698703469,
+          "memory_peak": 3.1592330932617188,
+          "num_solutions": 1,
+          "hypervolume": 36972.66058159842,
+          "diversity": 0.0,
+          "nodes_explored": 4621,
+          "nodes_pruned": 3723
+        },
+        "geometric": {
+          "time_mean": 0.004828479996649549,
+          "time_std": 0.00021317813879211982,
+          "memory_peak": 0.032684326171875,
+          "num_solutions": 5,
+          "hypervolume": 35650.74837358096,
+          "diversity": 46.69778789763312,
+          "visibility_edges": 102
+        },
+        "simulated_annealing": {
+          "time_mean": 0.2649526000081096,
+          "time_std": 0.005543456299108762,
+          "memory_peak": 0.00798797607421875,
+          "num_solutions": 1,
+          "hypervolume": 36765.00033867288,
+          "diversity": 0.0,
+          "acceptance_rate": 0.9965999999999999,
+          "improvements": 2
+        }
+      }
+    },
+    "instance_n15": {
+      "n_destinations": 15,
+      "n_no_fly_zones": 4,
+      "algorithms": {
+        "branch_bound": {
+          "skipped": true,
+          "reason": "Instance too large (N > 12)"
+        },
+        "geometric": {
+          "time_mean": 0.01629279999760911,
+          "time_std": 0.0006727097816407757,
+          "memory_peak": 0.052154541015625,
+          "num_solutions": 0,
+          "hypervolume": 0,
+          "diversity": 0,
+          "visibility_edges": 204
+        },
+        "simulated_annealing": {
+          "time_mean": 0.3509770800010301,
+          "time_std": 0.01672466404274986,
+          "memory_peak": 0.009674072265625,
+          "num_solutions": 4,
+          "hypervolume": 22177.550918459336,
+          "diversity": 87.85987253957079,
+          "acceptance_rate": 0.996,
+          "improvements": 0
+        }
+      }
+    },
+    "instance_n20": {
+      "n_destinations": 20,
+      "n_no_fly_zones": 4,
+      "algorithms": {
+        "branch_bound": {
+          "skipped": true,
+          "reason": "Instance too large (N > 12)"
+        },
+        "geometric": {
+          "time_mean": 0.022654860001057386,
+          "time_std": 0.0005404915091972505,
+          "memory_peak": 0.072998046875,
+          "num_solutions": 2,
+          "hypervolume": 27606.164866298717,
+          "diversity": 325.4623161381596,
+          "visibility_edges": 296
+        },
+        "simulated_annealing": {
+          "time_mean": 0.39617827999754807,
+          "time_std": 0.02960283243300026,
+          "memory_peak": 0.0102081298828125,
+          "num_solutions": 4,
+          "hypervolume": 27129.390666212115,
+          "diversity": 56.897824700715915,
+          "acceptance_rate": 0.9957,
+          "improvements": 0
+        }
+      }
+    },
+    "instance_n25": {
+      "n_destinations": 25,
+      "n_no_fly_zones": 5,
+      "algorithms": {
+        "branch_bound": {
+          "skipped": true,
+          "reason": "Instance too large (N > 12)"
+        },
+        "geometric": {
+          "time_mean": 0.04166024001315236,
+          "time_std": 0.004706008120366917,
+          "memory_peak": 0.11103057861328125,
+          "num_solutions": 0,
+          "hypervolume": 0,
+          "diversity": 0,
+          "visibility_edges": 446
+        },
+        "simulated_annealing": {
+          "time_mean": 0.43266183999949137,
+          "time_std": 0.01169239601200544,
+          "memory_peak": 0.01076507568359375,
+          "num_solutions": 1,
+          "hypervolume": 21595.32856841269,
+          "diversity": 0.0,
+          "acceptance_rate": 0.9927,
+          "improvements": 0
+        }
+      }
+    }
+  },
+  "summary": {}
+}

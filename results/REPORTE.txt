@@ -1,0 +1,112 @@
+======================================================================
+REPORTE DE EXPERIMENTACIÓN
+Planificación Multiobjetivo de Rutas de Drones
+======================================================================
+
+Fecha: 2025-12-14T16:43:55.315037
+Réplicas por experimento: 5
+Límite de tiempo: 60.0 s
+
+----------------------------------------------------------------------
+INSTANCIA: instance_n10
+----------------------------------------------------------------------
+Destinos: 10
+Zonas no-fly: 3
+
+
+  BRANCH_BOUND:
+    Tiempo: 0.4615 s (± 0.0087)
+    Memoria pico: 3.16 MB
+    Soluciones Pareto: 1
+    Hipervolumen: 36972.66
+    Diversidad: 0.00
+
+  GEOMETRIC:
+    Tiempo: 0.0048 s (± 0.0002)
+    Memoria pico: 0.03 MB
+    Soluciones Pareto: 5
+    Hipervolumen: 35650.75
+    Diversidad: 46.70
+
+  SIMULATED_ANNEALING:
+    Tiempo: 0.2650 s (± 0.0055)
+    Memoria pico: 0.01 MB
+    Soluciones Pareto: 1
+    Hipervolumen: 36765.00
+    Diversidad: 0.00
+
+----------------------------------------------------------------------
+INSTANCIA: instance_n15
+----------------------------------------------------------------------
+Destinos: 15
+Zonas no-fly: 4
+
+
+  BRANCH_BOUND:
+    Omitido: Instance too large (N > 12)
+
+  GEOMETRIC:
+    Tiempo: 0.0163 s (± 0.0007)
+    Memoria pico: 0.05 MB
+    Soluciones Pareto: 0
+    Hipervolumen: 0.00
+    Diversidad: 0.00
+
+  SIMULATED_ANNEALING:
+    Tiempo: 0.3510 s (± 0.0167)
+    Memoria pico: 0.01 MB
+    Soluciones Pareto: 4
+    Hipervolumen: 22177.55
+    Diversidad: 87.86
+
+----------------------------------------------------------------------
+INSTANCIA: instance_n20
+----------------------------------------------------------------------
+Destinos: 20
+Zonas no-fly: 4
+
+
+  BRANCH_BOUND:
+    Omitido: Instance too large (N > 12)
+
+  GEOMETRIC:
+    Tiempo: 0.0227 s (± 0.0005)
+    Memoria pico: 0.07 MB
+    Soluciones Pareto: 2
+    Hipervolumen: 27606.16
+    Diversidad: 325.46
+
+  SIMULATED_ANNEALING:
+    Tiempo: 0.3962 s (± 0.0296)
+    Memoria pico: 0.01 MB
+    Soluciones Pareto: 4
+    Hipervolumen: 27129.39
+    Diversidad: 56.90
+
+----------------------------------------------------------------------
+INSTANCIA: instance_n25
+----------------------------------------------------------------------
+Destinos: 25
+Zonas no-fly: 5
+
+
+  BRANCH_BOUND:
+    Omitido: Instance too large (N > 12)
+
+  GEOMETRIC:
+    Tiempo: 0.0417 s (± 0.0047)
+    Memoria pico: 0.11 MB
+    Soluciones Pareto: 0
+    Hipervolumen: 0.00
+    Diversidad: 0.00
+
+  SIMULATED_ANNEALING:
+    Tiempo: 0.4327 s (± 0.0117)
+    Memoria pico: 0.01 MB
+    Soluciones Pareto: 1
+    Hipervolumen: 21595.33
+    Diversidad: 0.00
+
+======================================================================
+FIN DEL REPORTE
+======================================================================

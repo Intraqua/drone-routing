@@ -17,9 +17,9 @@ El problema considera restricciones de zonas de vuelo prohibidas (no-fly zones) 
 ## Estructura del Proyecto
 ```
 drone-routing/
-├── main.py                 # Script principal de ejecución
-├── Makefile               # Automatización de comandos
-├── requirements.txt       # Dependencias Python
+├── main.py               # Script principal de ejecución
+├── Makefile              # Automatización de comandos
+├── requirements.txt      # Dependencias Python
 ├── README.md             # Este archivo
 │
 ├── common/               # Módulos compartidos
@@ -36,10 +36,10 @@ drone-routing/
 ├── metaheuristic/        # Metaheurística
 │   └── simulated_annealing.py # Simulated Annealing
 │
-├── experiments/          # Experimentación
+├── experiments/               # Experimentación
 │   ├── generate_instances.py  # Generador de instancias
-│   ├── benchmark.py          # Medición de rendimiento
-│   └── run_experiments.py    # Script de experimentos
+│   ├── benchmark.py           # Medición de rendimiento
+│   └── run_experiments.py     # Script de experimentos
 │
 ├── instances/            # Instancias de prueba (JSON)
 │   ├── instance_n10.json
@@ -80,7 +80,7 @@ choco install make
 ### Linux / Mac
 ```bash
 # Clonar el repositorio
-git clone https://github.com/dvalbuena-unir/drone-routing.git
+git clone https://github.com/Intraqua/drone-routing
 cd drone-routing
 
 # Instalar dependencias

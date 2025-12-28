@@ -218,4 +218,4 @@ Los resultados se generan en el directorio `results/`:
 
 ## Licencia
 
-Este proyecto es parte de una actividad académica para la asignatura de Diseño Avanzado de Algoritmos de la UNIR.
+Este proyecto es parte de una actividad académica para la asignatura de Diseño Avanzado de Algoritmos de la UNIPRO.

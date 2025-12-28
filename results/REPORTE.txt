@@ -3,7 +3,7 @@ REPORTE DE EXPERIMENTACIÓN
 Planificación Multiobjetivo de Rutas de Drones
 ======================================================================
 
-Fecha: 2025-12-14T17:02:52.205504
+Fecha: 2025-12-28T21:01:28.910160
 Réplicas por experimento: 5
 Límite de tiempo: 60.0 s
 
@@ -15,24 +15,24 @@ Zonas no-fly: 3
 
 
   BRANCH_BOUND:
-    Tiempo: 0.4597 s (± 0.0079)
+    Tiempo: 0.4649 s (± 0.0085)
     Memoria pico: 3.16 MB
     Soluciones Pareto: 1
     Hipervolumen: 36972.66
     Diversidad: 0.00
 
   GEOMETRIC:
-    Tiempo: 0.0050 s (± 0.0004)
-    Memoria pico: 0.03 MB
-    Soluciones Pareto: 5
-    Hipervolumen: 35650.75
-    Diversidad: 46.70
+    Tiempo: 0.0282 s (± 0.0027)
+    Memoria pico: 0.10 MB
+    Soluciones Pareto: 4
+    Hipervolumen: 36004.49
+    Diversidad: 104.29
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.2637 s (± 0.0044)
+    Tiempo: 0.2636 s (± 0.0050)
     Memoria pico: 0.01 MB
     Soluciones Pareto: 1
-    Hipervolumen: 35403.34
+    Hipervolumen: 36393.67
     Diversidad: 0.00
 
 ----------------------------------------------------------------------
@@ -46,18 +46,18 @@ Zonas no-fly: 4
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0161 s (± 0.0002)
-    Memoria pico: 0.05 MB
-    Soluciones Pareto: 0
-    Hipervolumen: 0.00
-    Diversidad: 0.00
+    Tiempo: 0.2279 s (± 0.0172)
+    Memoria pico: 0.21 MB
+    Soluciones Pareto: 3
+    Hipervolumen: 29866.79
+    Diversidad: 455.51
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.3403 s (± 0.0044)
+    Tiempo: 0.3611 s (± 0.0094)
     Memoria pico: 0.01 MB
     Soluciones Pareto: 4
     Hipervolumen: 22177.55
-    Diversidad: 67.79
+    Diversidad: 94.55
 
 ----------------------------------------------------------------------
 INSTANCIA: instance_n20
@@ -70,18 +70,18 @@ Zonas no-fly: 4
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0223 s (± 0.0023)
-    Memoria pico: 0.07 MB
+    Tiempo: 0.8663 s (± 0.0852)
+    Memoria pico: 0.23 MB
     Soluciones Pareto: 2
-    Hipervolumen: 27606.16
-    Diversidad: 325.46
+    Hipervolumen: 26869.72
+    Diversidad: 556.49
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.3628 s (± 0.0029)
+    Tiempo: 0.3833 s (± 0.0343)
     Memoria pico: 0.01 MB
-    Soluciones Pareto: 5
-    Hipervolumen: 23823.54
-    Diversidad: 186.47
+    Soluciones Pareto: 1
+    Hipervolumen: 29198.97
+    Diversidad: 0.00
 
 ----------------------------------------------------------------------
 INSTANCIA: instance_n25
@@ -94,18 +94,18 @@ Zonas no-fly: 5
     Omitido: Instance too large (N > 12)
 
   GEOMETRIC:
-    Tiempo: 0.0366 s (± 0.0007)
-    Memoria pico: 0.11 MB
-    Soluciones Pareto: 0
-    Hipervolumen: 0.00
-    Diversidad: 0.00
+    Tiempo: 1.9060 s (± 0.0837)
+    Memoria pico: 0.34 MB
+    Soluciones Pareto: 2
+    Hipervolumen: -961.84
+    Diversidad: 2663.92
 
   SIMULATED_ANNEALING:
-    Tiempo: 0.4578 s (± 0.0443)
+    Tiempo: 0.4327 s (± 0.0221)
     Memoria pico: 0.01 MB
-    Soluciones Pareto: 2
+    Soluciones Pareto: 3
     Hipervolumen: 19599.33
-    Diversidad: 78.16
+    Diversidad: 0.00
 
 ======================================================================
 FIN DEL REPORTE
